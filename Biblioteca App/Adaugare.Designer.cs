@@ -84,6 +84,7 @@
             this.isbnText.Name = "isbnText";
             this.isbnText.Size = new System.Drawing.Size(100, 20);
             this.isbnText.TabIndex = 4;
+            this.isbnText.TextChanged += new System.EventHandler(this.isbnText_TextChanged);
             // 
             // numeleText
             // 
@@ -91,6 +92,7 @@
             this.numeleText.Name = "numeleText";
             this.numeleText.Size = new System.Drawing.Size(100, 20);
             this.numeleText.TabIndex = 5;
+            this.numeleText.TextChanged += new System.EventHandler(this.numeleText_TextChanged);
             // 
             // autorulText
             // 
@@ -98,6 +100,7 @@
             this.autorulText.Name = "autorulText";
             this.autorulText.Size = new System.Drawing.Size(100, 20);
             this.autorulText.TabIndex = 6;
+            this.autorulText.TextChanged += new System.EventHandler(this.autorulText_TextChanged);
             // 
             // edituraText
             // 
@@ -105,6 +108,7 @@
             this.edituraText.Name = "edituraText";
             this.edituraText.Size = new System.Drawing.Size(100, 20);
             this.edituraText.TabIndex = 7;
+            this.edituraText.TextChanged += new System.EventHandler(this.edituraText_TextChanged);
             // 
             // button1
             // 

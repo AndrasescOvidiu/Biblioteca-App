@@ -95,6 +95,7 @@
             this.Name = "Returnare";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Returnare";
+            this.Load += new System.EventHandler(this.Returnare_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

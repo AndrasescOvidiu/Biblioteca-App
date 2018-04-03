@@ -34,6 +34,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBox1
@@ -56,9 +57,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(12, 243);
+            this.button2.Location = new System.Drawing.Point(11, 281);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(279, 28);
+            this.button2.Size = new System.Drawing.Size(281, 28);
             this.button2.TabIndex = 2;
             this.button2.Text = "Revenire la meniul principal";
             this.button2.UseVisualStyleBackColor = true;
@@ -97,11 +98,22 @@
             this.comboBox1.TabIndex = 5;
             this.comboBox1.Text = "NUME";
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(11, 244);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(280, 31);
+            this.button4.TabIndex = 6;
+            this.button4.Text = "Stergere Carte";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // AfisareListaCarti
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(304, 276);
+            this.ClientSize = new System.Drawing.Size(304, 321);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
@@ -124,5 +136,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button4;
     }
 }
